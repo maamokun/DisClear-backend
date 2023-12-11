@@ -1,4 +1,4 @@
-import { remove } from './utils/delete';
+import { remove } from './utils/delete.js';
 const express = require('express');
 
 const app = express();
