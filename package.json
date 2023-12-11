@@ -1,0 +1,16 @@
+{
+  "name": "deleteapi",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "discord-api-types": "^0.37.66",
+    "discord.js": "^14.14.1",
+    "express": "^4.18.2"
+  }
+}
