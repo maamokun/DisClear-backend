@@ -1,4 +1,4 @@
-import { REST, Routes } from ('discord.js');
+const { REST, Routes } = require('discord.js');
 
 export function remove(token, clientId, res) {
 
