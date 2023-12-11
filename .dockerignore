@@ -176,6 +176,3 @@ dist
 
 # Bun lockfile
 bun.lockb
-
-## Fly.io 
-fly.toml
