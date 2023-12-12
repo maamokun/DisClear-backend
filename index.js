@@ -1,7 +1,11 @@
 import { remove } from './utils/delete.js';
 const express = require('express');
+const cors = require('cors');
 
 const app = express();
+app.use(cors({
+    origin: [ 'https://disclear.mikn.dev/', 'http://localhost:5500' ],
+}));
 
 app.post('/remove', (req, res) => {
     const token = req.query.token;
